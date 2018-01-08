@@ -1,16 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="MadCap HTML5 Target"
-  Type="WebHelp2"
+  Comment="New Target"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  DefaultUrl="/Content/Topic.htm"
   MasterToc="/Project/TOCs/Master.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
   MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
-  GetLatestBeforeCompile="true"
-  Skin="/Project/Skins/HTML5 - Tripane.flskn"
-  ConditionTagExpression="exclude[Default.PrintOnly] ">
+  ConditionTagExpression="exclude[Default.ScreenOnly] ">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
